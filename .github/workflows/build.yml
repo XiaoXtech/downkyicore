@@ -5,8 +5,8 @@ permissions:
 
 on:
   push:
-    tags:
-      - 'v*'
+    branches:
+      - V1.0.17
 
 jobs:
   changelog:
