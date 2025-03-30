@@ -1,4 +1,4 @@
-name: Build-winOnly
+name: Build-winX64Only
 
 permissions:
   contents: write
