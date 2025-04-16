@@ -5,8 +5,11 @@ permissions:
 
 on:
   push:
-    tags:
-      - 'v*'
+   #  tags:
+    #   - 'v*'
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - 'releases/**'
 
 jobs:
   changelog:
